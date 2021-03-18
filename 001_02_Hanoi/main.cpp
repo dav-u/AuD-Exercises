@@ -7,11 +7,11 @@
 
 int main() {
 	//TextOutputHanoiMover mover{};
-	HanoiGame game{ 3 };
+	HanoiGame game{ 5 };
 	ConsoleVisualHanoiMover mover{ game };
 	game.display_state();
 	
-	HanoiSolver solver(mover, 3);
+	HanoiSolver solver(mover, game.get_disk_count());
 	solver.solve();
 
 	return 0;

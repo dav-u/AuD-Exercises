@@ -10,6 +10,10 @@ private:
 public:
 	HanoiGame(int disk_count);
 
+	int get_disk_count() {
+		return m_disk_count;
+	}
+
 	void move(int from_index, int to_index);
 
 	void display_state();
