@@ -11,3 +11,6 @@ add_subdirectory ("001_02_Hanoi")
 add_subdirectory ("002_05")
 add_subdirectory ("002_06_ggT")
 add_subdirectory ("002_07_Harmonische_Reihe")
+add_subdirectory ("003_08_PI")
+add_subdirectory ("003_09_PrintCharArray")
+
