@@ -8,3 +8,6 @@ project ("AuD-Exercises")
 # Include sub-projects.
 add_subdirectory ("001_01_Collatz")
 add_subdirectory ("001_02_Hanoi")
+add_subdirectory ("002_05")
+add_subdirectory ("002_06_ggT")
+add_subdirectory ("002_07_Harmonische_Reihe")
