@@ -3,6 +3,7 @@
 
 #include "HanoiGame.h"
 #include "ConsoleVisualHanoiMover.h"
+#include "TextOutputHanoiMover.h"
 #include "HanoiSolver.h"
 
 int main() {
@@ -13,6 +14,7 @@ int main() {
 	
 	HanoiSolver solver(mover, game.get_disk_count());
 	solver.solve();
+	//mover.displayMoveCount();
 
 	return 0;
 }
