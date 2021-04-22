@@ -1,7 +1,7 @@
 #include <cstdio>
 
 double piRecursive(int n) {
-	if (n >= 40) return 1.0;
+	if (n >= 4) return 1.0;
 	return 1 + piRecursive(n + 1) * n / (2*n + 1);
 }
 

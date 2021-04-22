@@ -13,4 +13,7 @@ add_subdirectory ("002_06_ggT")
 add_subdirectory ("002_07_Harmonische_Reihe")
 add_subdirectory ("003_08_PI")
 add_subdirectory ("003_09_PrintCharArray")
+add_subdirectory ("004_13_Fibonacci")
+add_subdirectory ("004_14_BinarySearch")
+add_subdirectory ("004_15")
 
