@@ -46,7 +46,6 @@ void measureFib(unsigned long long (*fib)(int n)) {
 	do {
 		auto start = std::chrono::high_resolution_clock::now();
 
-		// code
 		fib(n);
 
 		auto end = std::chrono::high_resolution_clock::now();
@@ -72,7 +71,7 @@ void measureFibIt(unsigned long long (*fib)(int n)) {
 		ms = std::chrono::duration_cast<std::chrono::milliseconds>(duration).count();
 		std::cout << n << ": " << ms << std::endl;
 		n *= T / (ms == 0 ? 1 : ms);
-	} while (ms < T);
+	} while (std::abs(ms - T) > 100);
 }
 
 int main() {

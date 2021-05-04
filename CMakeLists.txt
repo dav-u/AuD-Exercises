@@ -16,4 +16,5 @@ add_subdirectory ("003_09_PrintCharArray")
 add_subdirectory ("004_13_Fibonacci")
 add_subdirectory ("004_14_BinarySearch")
 add_subdirectory ("004_15")
+add_subdirectory ("005_19_Factorial")
 
