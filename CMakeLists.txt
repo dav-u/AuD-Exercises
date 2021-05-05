@@ -17,4 +17,6 @@ add_subdirectory ("004_13_Fibonacci")
 add_subdirectory ("004_14_BinarySearch")
 add_subdirectory ("004_15")
 add_subdirectory ("005_19_Factorial")
-
+add_subdirectory ("006_20_Stack")
+add_subdirectory ("006_21_InfixToPostfix")
+add_subdirectory ("006_22_PostfixEval")
